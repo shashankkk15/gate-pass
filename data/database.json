@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": "STU001",
+      "username": "john.doe",
+      "password": "student123",
+      "role": "student",
+      "name": "John Doe",
+      "email": "john@college.edu"
+    },
+    {
+      "id": "MOD001",
+      "username": "prof.smith",
+      "password": "mod123",
+      "role": "moderator",
+      "name": "Prof. Smith",
+      "email": "smith@college.edu"
+    },
+    {
+      "id": "GATE001",
+      "username": "security.gate1",
+      "password": "gate123",
+      "role": "gatekeeper",
+      "name": "Gate Security 1",
+      "email": "gate1@college.edu"
+    },
+    {
+      "id": "ADMIN001",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "System Admin",
+      "email": "admin@college.edu"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ1761374186153433",
+      "studentId": "STU001",
+      "studentName": "John Doe",
+      "reason": "Medical emergency - visiting hospital",
+      "expectedTime": "2025-10-25T14:00:00",
+      "duration": 3,
+      "status": "approved",
+      "createdAt": "2025-10-25T06:36:26.153Z",
+      "moderatorRemarks": "Approved - valid reason",
+      "qrCode": "data:image/png;base64,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",
+      "expiresAt": "2025-10-25T09:45:34.958Z",
+      "approvedAt": "2025-10-25T06:45:34.958Z",
+      "qrData": {
+        "passId": "REQ1761374186153433",
+        "studentId": "STU001",
+        "studentName": "John Doe",
+        "reason": "Medical emergency - visiting hospital",
+        "approvedAt": "2025-10-25T06:45:34.958Z",
+        "expiresAt": "2025-10-25T09:45:34.958Z",
+        "used": true
+      }
+    },
+    {
+      "id": "REQ176137718197629",
+      "studentId": "STU001",
+      "studentName": "John Doe",
+      "reason": "going to village , for family emergency",
+      "expectedTime": "2025-10-25T13:56",
+      "duration": 5,
+      "status": "approved",
+      "createdAt": "2025-10-25T07:26:21.976Z",
+      "moderatorRemarks": "come back by evening",
+      "qrCode": "data:image/png;base64,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",
+      "expiresAt": "2025-10-25T12:27:27.270Z",
+      "approvedAt": "2025-10-25T07:27:27.270Z",
+      "qrData": {
+        "passId": "REQ176137718197629",
+        "studentId": "STU001",
+        "studentName": "John Doe",
+        "reason": "going to village , for family emergency",
+        "approvedAt": "2025-10-25T07:27:27.270Z",
+        "expiresAt": "2025-10-25T12:27:27.270Z",
+        "used": true
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "LOG1761375904781698",
+      "passId": "REQ1761374186153433",
+      "studentId": "STU001",
+      "studentName": "John Doe",
+      "type": "exit",
+      "timestamp": "2025-10-25T07:05:04.781Z",
+      "reason": "Medical emergency - visiting hospital"
+    },
+    {
+      "id": "LOG1761377469445315",
+      "passId": "REQ176137718197629",
+      "studentId": "STU001",
+      "studentName": "John Doe",
+      "type": "exit",
+      "timestamp": "2025-10-25T07:31:09.445Z",
+      "reason": "going to village , for family emergency"
+    }
+  ]
+}
